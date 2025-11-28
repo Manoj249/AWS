@@ -5,10 +5,10 @@ module "vpc" {
   public_subnets = var.public_subnets
 }
 
-module "s3_backend" {
-  source = "./modules/S3"
-  bucket_name = "${var.project_name}-tfstate"
-}
+# module "s3_backend" {
+#   source = "./modules/S3"
+#   bucket_name = "${var.project_name}-tfstate"
+# }
 
 module "ec2" {
   source = "./modules/ec2"
