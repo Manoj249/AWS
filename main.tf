@@ -19,4 +19,4 @@ module "ec2" {
   instance_type = var.instance_type
   instance_count = var.instance_count
   ingress_ports = var.ingress_ports
-} 
+}
