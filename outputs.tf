@@ -22,6 +22,6 @@ output "sg_id" {
   value = module.ec2.sg_id
 }
 
-output "bucket_name" {
-  value = module.s3_backend.bucket
-}
+# output "bucket_name" {
+#   value = module.s3_backend.bucket
+# }
