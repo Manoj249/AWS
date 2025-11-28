@@ -6,5 +6,5 @@ public_subnets = [ {
  ]
  ami = "ami-0d176f79571d18a8f"
  instance_type = "t2.micro"
- instance_count = 2
+ instance_count = 3
  ingress_ports = [ 22, 80, 443, 8080 ]
